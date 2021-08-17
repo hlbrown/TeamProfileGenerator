@@ -1,0 +1,22 @@
+{
+  "name": "team_profile_generator",
+  "version": "1.0.0",
+  "description": "Team Profile Generator",
+  "main": "index.js",
+  "repository": "https://github.com/hlbrown/TeamProfileGenerator.git",
+  "author": "Hannah Brown <nagle.hannah1@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "inquirer": "^8.1.2",
+    "jest": "^27.0.6"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts":{
+    "start": "node index.js",
+    "test": "jest"
+  }
+}
